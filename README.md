@@ -1,4 +1,4 @@
-#Digital Signal Processing on ARM Cortex M MCU#
+# Digital Signal Processing on ARM Cortex M MCU #
 =====================================================
 
 This repository contains the project files I created while following the course https://www.udemy.com/share/1021sqBUATdV5TTX4=/. Here is my certificate.https://www.udemy.com/certificate/UC-d47b401e-46f3-4a8d-82c5-deb6ad201e45/. 
