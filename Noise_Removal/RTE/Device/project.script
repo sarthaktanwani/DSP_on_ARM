@@ -1,0 +1,4 @@
+load STM32F030F4Px 
+project name STCubeGenerated 
+project toolchain "MDK-ARM V5" 
+project path "C:\Users\PARTH\Desktop\Embedded Systems\DSP_on_ARM\Noise_Removal\RTE\Device\STM32F030F4Px\" 

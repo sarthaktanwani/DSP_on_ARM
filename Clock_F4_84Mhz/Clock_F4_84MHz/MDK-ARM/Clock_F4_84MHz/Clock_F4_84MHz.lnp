@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp
+"clock_f4_84mhz\startup_stm32f401xe.o"
+"clock_f4_84mhz\main.o"
+"clock_f4_84mhz\stm32f4xx_it.o"
+"clock_f4_84mhz\stm32f4xx_hal_msp.o"
+"clock_f4_84mhz\stm32f4xx_hal_tim.o"
+"clock_f4_84mhz\stm32f4xx_hal_tim_ex.o"
+"clock_f4_84mhz\stm32f4xx_hal_rcc.o"
+"clock_f4_84mhz\stm32f4xx_hal_rcc_ex.o"
+"clock_f4_84mhz\stm32f4xx_hal_flash.o"
+"clock_f4_84mhz\stm32f4xx_hal_flash_ex.o"
+"clock_f4_84mhz\stm32f4xx_hal_flash_ramfunc.o"
+"clock_f4_84mhz\stm32f4xx_hal_gpio.o"
+"clock_f4_84mhz\stm32f4xx_hal_dma_ex.o"
+"clock_f4_84mhz\stm32f4xx_hal_dma.o"
+"clock_f4_84mhz\stm32f4xx_hal_pwr.o"
+"clock_f4_84mhz\stm32f4xx_hal_pwr_ex.o"
+"clock_f4_84mhz\stm32f4xx_hal_cortex.o"
+"clock_f4_84mhz\stm32f4xx_hal.o"
+"clock_f4_84mhz\stm32f4xx_hal_exti.o"
+"clock_f4_84mhz\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "Clock_F4_84MHz\Clock_F4_84MHz.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Clock_F4_84MHz.map" -o Clock_F4_84MHz\Clock_F4_84MHz.axf
